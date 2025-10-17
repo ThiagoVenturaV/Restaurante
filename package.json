@@ -1,0 +1,29 @@
+{
+  "name": "sistema-pedidos-restaurante",
+  "version": "1.0.0",
+  "description": "Sistema completo para gerenciamento de cardápio e pedidos de restaurante",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server -p 3000 -o -c-1",
+    "migrate-passwords": "node migrate-passwords.js"
+  },
+  "keywords": [
+    "restaurante",
+    "pedidos",
+    "cardapio",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Sistema de Pedidos",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
